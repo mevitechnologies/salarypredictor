@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+
+<body>
+
+    {% block content %}
+
+    <h1>hey lets predict salary of a person</h1>
+
+    <form action="/submit" method="post">
+
+        <label for="EOP">Enter years of Experince :</label><br>
+        <input type="number" id="EOP" name="EOP" value="0"><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% endblock %}
+</body>
+</head>
